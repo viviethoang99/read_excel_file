@@ -1,0 +1,49 @@
+name: read_exel_file
+description: My new Flutter plugin
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: 3.0.4
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+  # Remote API
+  dio: ^4.0.4
+  pretty_dio_logger: ^1.1.1
+
+  # Dependency Injection
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+
+  # Dart data class
+  json_serializable: ^6.1.5
+
+  # Misc
+  file_picker: ^4.6.1
+
+  excel: 2.0.0-null-safety-3
+  equatable: ^2.0.3
+
+  # Json edit
+  json_editor: ^0.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+  # Code generators
+  injectable_generator: ^1.5.3
+
+flutter:
+  uses-material-design: true
+  generate: true
